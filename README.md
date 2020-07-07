@@ -14,7 +14,7 @@ __scrapy crawl TargetSpider  -a start_url="<PRODUCT URL FROM TARGET.COM> -o <FIL
 
 ## RESULT:
 As a result you will see something similar in cmd window:
-<(scrapy) D:\Python_Scripts\Scrapy\targetParse>scrapy crawl TargetSpider  -a start_url="https://www.target.com/p/disposable-red-plastic-cups-18oz-72ct-up-up-8482/-/A-14736272"
+```(scrapy) D:\Python_Scripts\Scrapy\targetParse>scrapy crawl TargetSpider  -a start_url="https://www.target.com/p/disposable-red-plastic-cups-18oz-72ct-up-up-8482/-/A-14736272"
 RESULT:
 {
         'url': https://www.target.com/p/disposable-red-plastic-cups-18oz-72ct-up-up-8482/-/A-14736272,
@@ -34,4 +34,4 @@ RESULT:
             'Material': ' Polystyrene',
             'Package Quantity': ' 72',
             'Pattern': ' Solid, No Pattern Applied'}
-}>
+}```
