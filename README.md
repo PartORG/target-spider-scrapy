@@ -3,18 +3,24 @@ Spider for parcing product information from target.com website made in Python/Sc
 
 ## RUN:
 In order to run open commandline in a directory where Spider is:
-__cd <directory of spider>/__
+```
+cd directory of spider/
+```
 
 Next, run next command:
-__scrapy crawl TargetSpider  -a start_url="<PRODUCT URL FROM TARGET.COM>"__
+```
+scrapy crawl TargetSpider  -a start_url="<PRODUCT URL FROM TARGET.COM>"
+```
 
 If you want to save result in a file (JSON for example), write next command:
-__scrapy crawl TargetSpider  -a start_url="<PRODUCT URL FROM TARGET.COM> -o <FILE_NAME>.json"__
+```
+scrapy crawl TargetSpider  -a start_url="<PRODUCT URL FROM TARGET.COM> -o <FILE_NAME>.json"
+```
 
 
 ## RESULT:
 As a result you will see something similar in cmd window:
-```(scrapy) D:\Python_Scripts\Scrapy\targetParse>scrapy crawl TargetSpider  -a start_url="https://www.target.com/p/disposable-red-plastic-cups-18oz-72ct-up-up-8482/-/A-14736272"
+```(scrapy) D:\...\targetParse>scrapy crawl TargetSpider  -a start_url="https://www.target.com/p/disposable-red-plastic-cups-18oz-72ct-up-up-8482/-/A-14736272"
 RESULT:
 {
         'url': https://www.target.com/p/disposable-red-plastic-cups-18oz-72ct-up-up-8482/-/A-14736272,
